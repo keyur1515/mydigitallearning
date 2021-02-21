@@ -1,0 +1,80 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+@media screen and (max-width: 600px) {
+  .responsive{
+     padding:10px !important;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .responsive{
+     padding-top:5% !important;
+     padding-bottom:5% !important;
+     padding-left:25% !important;
+     padding-right:25% !important;
+  }
+}
+@keyframes blinker {
+  0% {
+    filter: opacity(1);
+  }
+  10% {
+    filter: opacity(0.8);
+  }
+  20% {
+    filter: opacity(0.6);
+  }
+  30% {
+    filter: opacity(0.4);
+  }
+  40% {
+    filter: opacity(0.2);
+  }
+  50% {
+    filter: opacity(0);
+  }
+  60% {
+    filter: opacity(0.2);
+  }
+  70% {
+    filter: opacity(0.4);
+  }
+  80% {
+    filter: opacity(0.6);
+  }
+  90% {
+    filter: opacity(0.8);
+  }
+  100% {
+    filter: opacity(1);
+  }
+}
+
+
+.banner > img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  background-color:rgba(211, 211, 211, 0.3) !important;
+}
+
+hr {
+  color: grey !important;
+}
+
+.best-selling {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.course-promo {
+  margin-bottom: 0;
+}
+#blink {
+    color: red;
+    animation: blinker 2s linear infinite;
+}

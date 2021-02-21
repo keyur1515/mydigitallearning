@@ -1,0 +1,32 @@
+.footer {
+  color: white;
+  background-color: #212121;
+}
+
+#phone {
+  text-decoration: none;
+}
+
+.copy-rights {
+  color: grey;
+  background-color:#212121;
+  padding-left:10px;
+  padding-right:10px;
+}
+#right {
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 800px) {
+  .copy-rights {
+     text-align: center !important;
+  }
+  #right {
+    justify-content: center;
+  }
+}
+footer {
+  background-color:#212121;
+}

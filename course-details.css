@@ -1,0 +1,100 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: auto 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+.productgrid{
+  display:grid;
+  grid-gap:20px;
+  grid-template-columns:repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box > a > img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.box{
+  padding:0px;
+  margin: 20px;
+  text-align: center;
+}
+
+.webtable{
+  text-align: center;
+  display:grid;
+  grid-gap:5px;
+  grid-template-columns:repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.para {
+  padding-left:15px;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 720px) {
+  .lower-heading{
+    display: none;
+  }
+}
+@media screen and (min-width: 720px) {
+  .upper-heading{
+    display: none;
+  }
+  .upper-hr {
+    display: none;
+  }
+  .upper-button {
+    display: none !important;
+  }
+}
+
+
+.sign-up{
+  width: 100%;
+  text-align: center;
+}
+
+.btn-primary {
+  width: 80%;
+}
+
+.upper-button {
+  margin-top: 40px;
+}
+
+.lower-hr {
+  margin: 0;
+}
+
+
+.cost{
+  text-align: center;
+  display:grid;
+  grid-gap:20px;
+  grid-template-columns:1fr 1fr;
+}
+hr{
+  width: 100%;
+  height: 0;
+  border-style: groove;
+}
+.share{
+  text-align: center;
+}
+.share > a > img{
+  width: 20px;
+  padding: 5px;
+}
+figcaption{
+  margin-left: 155px;
+  color: darkgrey;
+
+}
